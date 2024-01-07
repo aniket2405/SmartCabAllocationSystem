@@ -35,7 +35,7 @@
 
 In summary, the project aims to create a comprehensive Smart Cab Allocation System that optimizes cab allocation for efficient trip planning. It addresses both administrative and employee perspectives, leveraging real-time location data for enhanced accuracy and effectiveness in cab suggestions. In addition to providing the most efficient cab suggestion for the trip, the project also includes real-time data updates with the completion of the current trip and provides updated cab suggestions for a new location. The project encompasses algorithm development, real-time data integration, and thorough testing and evaluation processes. We provide console logging for the features to indicate the results of our algorithm. We provide the following 5 options to the user:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/42417073-203a-4b78-9663-acf1ac3ca83e/4ab1b1c3-1c26-4c6e-917c-87e406148888/Untitled.png)
+![Untitled](https://github.com/aniket2405/SmartCabAllocationSystem/blob/master/Images/Untitled.png)
 
 ## Tech Stack Used
 
@@ -69,11 +69,11 @@ In summary, the project aims to create a comprehensive Smart Cab Allocation Syst
 
 Authentication Successful:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/42417073-203a-4b78-9663-acf1ac3ca83e/2d657a47-103b-4b77-ab5a-baa3c608eafa/Untitled.png)
+![Untitled](https://github.com/aniket2405/SmartCabAllocationSystem/blob/master/Images/Untitled%20(1).png)
 
 Authentication failure:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/42417073-203a-4b78-9663-acf1ac3ca83e/64070754-1aef-46d2-a5a2-4e348c9e7cf1/Untitled.png)
+![Untitled](https://github.com/aniket2405/SmartCabAllocationSystem/blob/master/Images/Untitled%20(2).png)
 
 ### Cost Estimation
 
@@ -95,7 +95,7 @@ The space complexity depends on the storage and representation of cab locations.
     
     Using private and public access modifiers to provide abstraction and encapsulation.
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/42417073-203a-4b78-9663-acf1ac3ca83e/6f61cfdc-cab7-4e1f-bd91-cd0adf162910/Untitled.png)
+    ![Untitled](https://github.com/aniket2405/SmartCabAllocationSystem/blob/master/Images/Untitled%20(3).png)
     
 - **Polymorphism**: Implemented to ensure flexibility and adaptability within the codebase.
     
@@ -103,7 +103,6 @@ The space complexity depends on the storage and representation of cab locations.
     
 - **Modularization**: The code is highly modularized, which enables easy addition of new functionality. Each feature is organized into classes, simplifying debugging and maintenance and helps in following well-formed OOP principles.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/42417073-203a-4b78-9663-acf1ac3ca83e/92b00bad-d2e6-4801-863a-e8a2bff1d0f7/Untitled.png)
 
 ### **Trade-offs in the System**
 
@@ -117,11 +116,11 @@ Since this was created in just less than a day there are bound to be some trade-
 
 - **Try-Catch Blocks**: Implemented at critical operations to handle potential issues.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/42417073-203a-4b78-9663-acf1ac3ca83e/39404647-f69d-4978-8a57-e00dab68b57e/Untitled.png)
+![Untitled](https://github.com/aniket2405/SmartCabAllocationSystem/blob/master/Images/Untitled%20(4).png)
 
 - **Comprehensive Error Handling**: Ensures robust application performance by providing meaningful error messages.
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/42417073-203a-4b78-9663-acf1ac3ca83e/cab8b7f2-366a-4fdf-bd9c-eb67076b71cb/Untitled.png)
+    ![Untitled](https://github.com/aniket2405/SmartCabAllocationSystem/blob/master/Images/Untitled%20(5).png)
     
 
 ## **Backend Installation**
@@ -147,15 +146,15 @@ cd SmartCabAllocationSystem
 
 - Initial location of Cabs in the form of latitude and longitude. We can add cabs as and when desired.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/42417073-203a-4b78-9663-acf1ac3ca83e/3ca8a893-046c-4058-bf87-083b55b68659/Untitled.png)
+![Untitled](https://github.com/aniket2405/SmartCabAllocationSystem/blob/master/Images/Untitled%20(6).png)
 
 - User authenticates and enters their current location. CLI tool to ask users for a preference of what they want to do.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/42417073-203a-4b78-9663-acf1ac3ca83e/753fa84f-64d6-4bbb-9c85-0bdccd4c7caa/Untitled.png)
+![Untitled](https://github.com/aniket2405/SmartCabAllocationSystem/blob/master/Images/Untitled%20(7).png)
 
 1. Display Nearby Cab Locations: Displays all the nearby cab allocations within a given limit.
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/42417073-203a-4b78-9663-acf1ac3ca83e/3a8888c4-77f4-4d53-b9d3-47ef1cec3a1f/Untitled.png)
+    ![Untitled](https://github.com/aniket2405/SmartCabAllocationSystem/blob/master/Images/Untitled%20(8).png)
     
 2. Request a Cab - Display the best possible cab and the fare based on the current location and
     
@@ -163,22 +162,21 @@ cd SmartCabAllocationSystem
     
     If users select a 1, the cab is booked. Otherwise, the cab is not booked and users can choose again.
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/42417073-203a-4b78-9663-acf1ac3ca83e/cd652018-e646-4f19-864d-25268493d501/Untitled.png)
-    
+   ![Untitled](https://github.com/aniket2405/SmartCabAllocationSystem/blob/master/Images/Untitled%20(9).png)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/42417073-203a-4b78-9663-acf1ac3ca83e/61486f47-6686-4f42-adcb-1015aa7fee80/Untitled.png)
+![Untitled](https://github.com/aniket2405/SmartCabAllocationSystem/blob/master/Images/Untitled%20(10).png)
 
-3. Trip completed - User location and cab location updated with the destination location after the trip is completed. The new location for each is displayed below and is updated in the database.
+3. Trip completed - User location and cab location are updated with the destination location after the trip is completed. The new location for each is displayed below and is updated in the database.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/42417073-203a-4b78-9663-acf1ac3ca83e/cc811424-1f4e-4839-b42f-011a9c052635/Untitled.png)
+![Untitled](https://github.com/aniket2405/SmartCabAllocationSystem/blob/master/Images/Untitled%20(11).png)
 
-No current ongoing trip to complete. Display error if the user selects the option for completing a trip when he/she has no ongoing trip.
+No current ongoing trip to complete. Display an error if the user selects the option for completing a trip when he/she has no ongoing trip.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/42417073-203a-4b78-9663-acf1ac3ca83e/134e3c43-0688-4d1d-b630-ac6701fb2e71/Untitled.png)
+![Untitled](https://github.com/aniket2405/SmartCabAllocationSystem/blob/master/Images/Untitled%20(12).png)
 
 4.1 Get UserID, user location, and currently booked cab (cabID for valid trip, -1 for no current trip)
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/42417073-203a-4b78-9663-acf1ac3ca83e/4441bbbf-e8a0-409b-9089-40662084c479/Untitled.png)
+    ![Untitled](https://github.com/aniket2405/SmartCabAllocationSystem/blob/master/Images/Untitled%20(13).png)
     
 
 4.2 The cab location was updated after the trip. Users can now search for cabs based 
@@ -190,6 +188,8 @@ No current ongoing trip to complete. Display error if the user selects the optio
     the new latitude and longitude.
     
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/42417073-203a-4b78-9663-acf1ac3ca83e/81ce0ae7-9541-4adf-9a51-0043c18fe8a9/Untitled.png)
+![Untitled](https://github.com/aniket2405/SmartCabAllocationSystem/blob/master/Images/Untitled%20(14).png)
 
 5. Exit the program from the CLI.
+
+![Untitled](https://github.com/aniket2405/SmartCabAllocationSystem/blob/master/Images/Untitled%20(15).png)
