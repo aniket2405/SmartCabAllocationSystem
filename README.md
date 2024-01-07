@@ -89,8 +89,7 @@ The space complexity depends on the storage and representation of cab locations.
 
 ### **Handling System Failure Cases**
 
-- **Fault Tolerance**: The system is designed with high fault tolerance.
-- **Database Consistency**: In the event of a system failure, the database remains constant. During system startup, the database can be seamlessly utilized, minimizing downtime to the system's rebooting time.
+- **Fault Tolerance**: The system is designed with high fault tolerance. In case of failures, the system restarts again.
 
 ### **Object-Oriented Programming Language (OOPS)**
 
