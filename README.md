@@ -193,13 +193,8 @@ No current ongoing trip to complete. Display an error if the user selects the op
 
     
 
-4.2 The cab location was updated after the trip. Users can now search for cabs based 
-    
-    on the new location. In our example, cab1’s location was updated after it completed 
-    
-    the last trip with user1, which can be seen below. The nearby cabs are suggested based on 
-    
-    the new latitude and longitude.
+4.2 The cab location was updated after the trip. Users can now search for cabs based  on the new location. In our example, cab1’s location was updated after it completed 
+    the last trip with user1, which can be seen below. The nearby cabs are suggested based on the new latitude and longitude.
     
 
 ![Untitled (14)](https://github.com/aniket2405/SmartCabAllocationSystem/assets/64733221/315456dc-9850-497c-bc8b-bb30a7fa1501)
