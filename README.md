@@ -112,9 +112,7 @@ The space complexity depends on the storage and representation of cab locations.
 
 ### **Trade-offs in the System**
 
-Since this was created in just less than a day there are bound to be some trade-offs.
-
-- **UI Choice**: A CLI-style UI was chosen over a full-fledged browser UI due to the simplicity of operations.
+- **UI Choice**: A CLI-style UI was chosen over a full-fledged browser UI to ensure faster execution and less overhead.
 - **Performance vs Accuracy:** Opting for a simpler algorithm to allocate cabs quickly. Implementing a more complex algorithm that provides more precise cab suggestions but may take longer to execute.
 - **Consistency vs. Availability in Real-Time Data Integration:** Achieving strong consistency might impact system availability, especially in distributed scenarios.
 
